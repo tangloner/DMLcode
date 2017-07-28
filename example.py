@@ -20,7 +20,7 @@ import sys
 import time
 
 # cluster specification
-parameter_servers = ["ssd31:2222"]
+parameter_servers = ["ssd35:2222"]
 workers = [	"ssd32:2222",
 			"ssd33:2222",
 			"ssd34:2222"]
