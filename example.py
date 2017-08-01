@@ -10,7 +10,6 @@ pc-02$ python example.py --job_name="worker" --task_index=0
 pc-03$ python example.py --job_name="worker" --task_index=1 
 pc-04$ python example.py --job_name="worker" --task_index=2 
 
-More details here: ischlag.github.io
 '''
 
 from __future__ import print_function
