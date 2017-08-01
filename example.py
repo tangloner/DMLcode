@@ -18,11 +18,15 @@ import tensorflow as tf
 import sys
 import time
 
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
+
+
 # cluster specification
 parameter_servers = ["ssd35:2222"]
-workers = [	"ssd32:2222",
+workers = [	"ssd34:2222",
 			"ssd33:2222",
-			"ssd34:2222"]
+			"ssd32:2222"]
 cluster = tf.train.ClusterSpec({"ps":parameter_servers, "worker":workers})
 
 # input flags
