@@ -18,8 +18,8 @@ import tensorflow as tf
 import sys
 import time
 
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
+#import os
+#os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 
 
 # cluster specification
