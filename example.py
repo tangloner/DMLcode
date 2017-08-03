@@ -5,10 +5,10 @@ Trains a simple sigmoid neural network on mnist for 20 epochs on three machines 
 Change the hardcoded host urls below with your own hosts. 
 Run like this: 
 
-pc-01$ python example.py --ps_hosts=ip:port  --job_name="ps" --task_index=0 
-pc-02$ python example.py --worker_hosts=ip:port --job_name="worker" --task_index=0 
-pc-03$ python example.py --worker_hosts=ip:port --job_name="worker" --task_index=1 
-pc-04$ python example.py --worker_hosts=ip:port --job_name="worker" --task_index=2 
+pc-01$ python example.py --job_name="ps" --task_index=0 
+pc-02$ python example.py --job_name="worker" --task_index=0 
+pc-03$ python example.py --job_name="worker" --task_index=1 
+pc-04$ python example.py --job_name="worker" --task_index=2 
 
 '''
 
@@ -24,27 +24,20 @@ import time
 
 # cluster specification
 #parameter_servers = ["ssd35:2222"]
-#workers = [	"ssd34:2222",
-#			"ssd33:2222",
-#			"ssd32:2222"]
-#cluster = tf.train.ClusterSpec({"ps":parameter_servers, "worker":workers})
+#workers = ["ssd34:2222","ssd33:2222","ssd32:2222"]
+
+parameter_servers = sys.argv[1].split(',')
+print(parameter_servers);
+
+workers = sys.argv[2].split(',')
+print(workers);
+
+cluster = tf.train.ClusterSpec({"ps":parameter_servers, "worker":workers})
 
 # input flags
-tf.app.flags.DEFINE_string(
-    'ps_hosts', 'tf-ps0:2222,tf-ps1:1111',
-    'Comma-separated list of hostname:port for the parameter server jobs. e.g. "tf-ps0:2222,tf-ps1:1111" ')
-tf.app.flags.DEFINE_string(
-    'worker_hosts', 'tf-worker0:2222,tf-worker1:1111',
-    'Comma-separated list of hostname:port for the worker jobs.'
-    'e.g. "tf-worker0:2222,tf-worker1:1111" ')
 tf.app.flags.DEFINE_string("job_name", "", "Either 'ps' or 'worker'")
 tf.app.flags.DEFINE_integer("task_index", 0, "Index of task within the job")
 FLAGS = tf.app.flags.FLAGS
-
-#cluster specification
-ps_hosts = FLAGS.ps_hosts.split(',')
-worker_hosts = FLAGS.worker_hosts.split(',')
-cluster = tf.train.ClusterSpec({"ps":ps_hosts, "worker":worker_hosts})
 
 # start a server for a specific task
 server = tf.train.Server(
@@ -60,7 +53,7 @@ logs_path = "/tmp/mnist/1"
 
 # load mnist data set
 from tensorflow.examples.tutorials.mnist import input_data
-mnist = input_data.read_data_sets('/root/DMLcode/MNIST_data', one_hot=True)
+mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
 
 if FLAGS.job_name == "ps":
     print ("Launching a parameter server\n")
