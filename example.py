@@ -60,7 +60,7 @@ logs_path = "/tmp/mnist/1"
 
 # load mnist data set
 from tensorflow.examples.tutorials.mnist import input_data
-mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
+mnist = input_data.read_data_sets('/root/DMLcode/MNIST_data', one_hot=True)
 
 if FLAGS.job_name == "ps":
     print ("Launching a parameter server\n")

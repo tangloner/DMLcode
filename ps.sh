@@ -2,6 +2,8 @@
 #$1 is the number of PSs
 #$2 is the number of members in cluster
 #$3 is the index of node eg: ssd35's index is "35"
+# build a folder named "result" as the path 
+#the ps.sh run in ssd02
 get_cluster_conf(){
     ps=""
     worker=""
