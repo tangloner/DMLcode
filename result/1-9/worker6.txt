@@ -1,0 +1,66 @@
+['localhost:2222']
+['localhost:2221', 'localhost:2220', 'localhost:2219', 'localhost:2218', 'localhost:2217', 'localhost:2216', 'localhost:2215', 'localhost:2214', 'localhost:2213']
+Extracting ./MNIST_data/train-images-idx3-ubyte.gz
+Extracting ./MNIST_data/train-labels-idx1-ubyte.gz
+Extracting ./MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting ./MNIST_data/t10k-labels-idx1-ubyte.gz
+Launching a worker
+
+Variables initialized ...
+Step: 1233,  Epoch:  1,  Batch: 100 of 550,  Cost: 6.3107,  AvgTime: 12.95ms
+Step: 2096,  Epoch:  1,  Batch: 200 of 550,  Cost: 5.8571,  AvgTime: 11.39ms
+Step: 2967,  Epoch:  1,  Batch: 300 of 550,  Cost: 5.7279,  AvgTime: 11.72ms
+Step: 3873,  Epoch:  1,  Batch: 400 of 550,  Cost: 5.1300,  AvgTime: 11.98ms
+Step: 4725,  Epoch:  1,  Batch: 500 of 550,  Cost: 4.6034,  AvgTime: 11.56ms
+Step: 5082,  Epoch:  1,  Batch: 550 of 550,  Cost: 4.3945,  AvgTime: 6.10ms
+Step: 6006,  Epoch:  2,  Batch: 100 of 550,  Cost: 3.8379,  AvgTime: 12.67ms
+Step: 6863,  Epoch:  2,  Batch: 200 of 550,  Cost: 4.4720,  AvgTime: 11.27ms
+Step: 7760,  Epoch:  2,  Batch: 300 of 550,  Cost: 3.9073,  AvgTime: 12.02ms
+Step: 8662,  Epoch:  2,  Batch: 400 of 550,  Cost: 4.2967,  AvgTime: 12.06ms
+Step: 9563,  Epoch:  2,  Batch: 500 of 550,  Cost: 4.2038,  AvgTime: 12.02ms
+Step: 9941,  Epoch:  2,  Batch: 550 of 550,  Cost: 3.6079,  AvgTime: 6.31ms
+Step: 10885,  Epoch:  3,  Batch: 100 of 550,  Cost: 3.4983,  AvgTime: 12.98ms
+Step: 11814,  Epoch:  3,  Batch: 200 of 550,  Cost: 3.4027,  AvgTime: 12.16ms
+Step: 12682,  Epoch:  3,  Batch: 300 of 550,  Cost: 3.2418,  AvgTime: 11.68ms
+Step: 13587,  Epoch:  3,  Batch: 400 of 550,  Cost: 3.3531,  AvgTime: 11.94ms
+Step: 14449,  Epoch:  3,  Batch: 500 of 550,  Cost: 2.5883,  AvgTime: 11.34ms
+Step: 14857,  Epoch:  3,  Batch: 550 of 550,  Cost: 2.5144,  AvgTime: 6.05ms
+Step: 15804,  Epoch:  4,  Batch: 100 of 550,  Cost: 2.4770,  AvgTime: 13.55ms
+Step: 16707,  Epoch:  4,  Batch: 200 of 550,  Cost: 2.6823,  AvgTime: 11.90ms
+Step: 17608,  Epoch:  4,  Batch: 300 of 550,  Cost: 2.4262,  AvgTime: 11.94ms
+Step: 18569,  Epoch:  4,  Batch: 400 of 550,  Cost: 2.6417,  AvgTime: 12.55ms
+Step: 19478,  Epoch:  4,  Batch: 500 of 550,  Cost: 2.8149,  AvgTime: 12.05ms
+Step: 19924,  Epoch:  4,  Batch: 550 of 550,  Cost: 2.5033,  AvgTime: 6.85ms
+Step: 20864,  Epoch:  5,  Batch: 100 of 550,  Cost: 2.7738,  AvgTime: 12.96ms
+Step: 21742,  Epoch:  5,  Batch: 200 of 550,  Cost: 2.3281,  AvgTime: 11.62ms
+Step: 22658,  Epoch:  5,  Batch: 300 of 550,  Cost: 2.6811,  AvgTime: 12.24ms
+Step: 23594,  Epoch:  5,  Batch: 400 of 550,  Cost: 2.2091,  AvgTime: 12.30ms
+Step: 24503,  Epoch:  5,  Batch: 500 of 550,  Cost: 2.5194,  AvgTime: 12.40ms
+Step: 24742,  Epoch:  5,  Batch: 550 of 550,  Cost: 2.4998,  AvgTime: 5.07ms
+Test-Accuracy: 0.45
+Total Time: 33.52s
+Final Cost: 2.4998
+done
+['localhost:2222']
+['localhost:2221', 'localhost:2220', 'localhost:2219', 'localhost:2218', 'localhost:2217', 'localhost:2216', 'localhost:2215', 'localhost:2214', 'localhost:2213']
+Extracting ./MNIST_data/train-images-idx3-ubyte.gz
+Extracting ./MNIST_data/train-labels-idx1-ubyte.gz
+Extracting ./MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting ./MNIST_data/t10k-labels-idx1-ubyte.gz
+Launching a worker
+
+Variables initialized ...
+['localhost:2222']
+['localhost:2221', 'localhost:2220', 'localhost:2219', 'localhost:2218', 'localhost:2217', 'localhost:2216', 'localhost:2215', 'localhost:2214', 'localhost:2213']
+Extracting ./MNIST_data/train-images-idx3-ubyte.gz
+Extracting ./MNIST_data/train-labels-idx1-ubyte.gz
+Extracting ./MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting ./MNIST_data/t10k-labels-idx1-ubyte.gz
+['localhost:2222']
+['localhost:2221', 'localhost:2220', 'localhost:2219', 'localhost:2218', 'localhost:2217', 'localhost:2216', 'localhost:2215', 'localhost:2214', 'localhost:2213']
+Extracting ./MNIST_data/train-images-idx3-ubyte.gz
+Extracting ./MNIST_data/train-labels-idx1-ubyte.gz
+Extracting ./MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting ./MNIST_data/t10k-labels-idx1-ubyte.gz
+Launching a worker
+

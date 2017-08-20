@@ -1,0 +1,45 @@
+['localhost:2222']
+['localhost:2221', 'localhost:2220', 'localhost:2219']
+Extracting ./MNIST_data/train-images-idx3-ubyte.gz
+Extracting ./MNIST_data/train-labels-idx1-ubyte.gz
+Extracting ./MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting ./MNIST_data/t10k-labels-idx1-ubyte.gz
+Launching a worker
+
+Worker 0: Initializing session...
+Variables initialized ...
+Worker 0: Session initialization complete.
+Step: 257,  Epoch:  1,  Batch: 100 of 550,  Cost: 9.0875,  AvgTime: 5.14ms
+Step: 559,  Epoch:  1,  Batch: 200 of 550,  Cost: 7.7244,  AvgTime: 4.93ms
+Step: 865,  Epoch:  1,  Batch: 300 of 550,  Cost: 6.1441,  AvgTime: 5.13ms
+Step: 1155,  Epoch:  1,  Batch: 400 of 550,  Cost: 6.5806,  AvgTime: 4.76ms
+Step: 1462,  Epoch:  1,  Batch: 500 of 550,  Cost: 6.7906,  AvgTime: 5.06ms
+Step: 1610,  Epoch:  1,  Batch: 550 of 550,  Cost: 4.9973,  AvgTime: 2.43ms
+Step: 1908,  Epoch:  2,  Batch: 100 of 550,  Cost: 6.5597,  AvgTime: 5.29ms
+Step: 2203,  Epoch:  2,  Batch: 200 of 550,  Cost: 6.0036,  AvgTime: 4.89ms
+Step: 2497,  Epoch:  2,  Batch: 300 of 550,  Cost: 5.7046,  AvgTime: 4.92ms
+Step: 2795,  Epoch:  2,  Batch: 400 of 550,  Cost: 4.9860,  AvgTime: 4.92ms
+Step: 3106,  Epoch:  2,  Batch: 500 of 550,  Cost: 5.3160,  AvgTime: 5.06ms
+Step: 3257,  Epoch:  2,  Batch: 550 of 550,  Cost: 4.9808,  AvgTime: 2.49ms
+Step: 3550,  Epoch:  3,  Batch: 100 of 550,  Cost: 4.7295,  AvgTime: 5.23ms
+Step: 3851,  Epoch:  3,  Batch: 200 of 550,  Cost: 5.1154,  AvgTime: 5.01ms
+Step: 4155,  Epoch:  3,  Batch: 300 of 550,  Cost: 6.0756,  AvgTime: 5.15ms
+Step: 4457,  Epoch:  3,  Batch: 400 of 550,  Cost: 4.6146,  AvgTime: 5.05ms
+Step: 4762,  Epoch:  3,  Batch: 500 of 550,  Cost: 4.4977,  AvgTime: 5.17ms
+Step: 4913,  Epoch:  3,  Batch: 550 of 550,  Cost: 4.8137,  AvgTime: 2.44ms
+Step: 5205,  Epoch:  4,  Batch: 100 of 550,  Cost: 4.6868,  AvgTime: 5.36ms
+Step: 5498,  Epoch:  4,  Batch: 200 of 550,  Cost: 3.8121,  AvgTime: 4.83ms
+Step: 5798,  Epoch:  4,  Batch: 300 of 550,  Cost: 4.3287,  AvgTime: 5.01ms
+Step: 6096,  Epoch:  4,  Batch: 400 of 550,  Cost: 4.3836,  AvgTime: 4.89ms
+Step: 6397,  Epoch:  4,  Batch: 500 of 550,  Cost: 4.0283,  AvgTime: 4.99ms
+Step: 6546,  Epoch:  4,  Batch: 550 of 550,  Cost: 4.2174,  AvgTime: 2.42ms
+Step: 6835,  Epoch:  5,  Batch: 100 of 550,  Cost: 4.4867,  AvgTime: 5.22ms
+Step: 7132,  Epoch:  5,  Batch: 200 of 550,  Cost: 4.5995,  AvgTime: 4.94ms
+Step: 7436,  Epoch:  5,  Batch: 300 of 550,  Cost: 3.9237,  AvgTime: 4.90ms
+Step: 7737,  Epoch:  5,  Batch: 400 of 550,  Cost: 3.5262,  AvgTime: 4.90ms
+Step: 8040,  Epoch:  5,  Batch: 500 of 550,  Cost: 4.0587,  AvgTime: 4.98ms
+Step: 8186,  Epoch:  5,  Batch: 550 of 550,  Cost: 4.1502,  AvgTime: 2.42ms
+Test-Accuracy: 0.23
+Total Time: 13.87s
+Final Cost: 4.1502
+done

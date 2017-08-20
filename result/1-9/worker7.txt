@@ -1,0 +1,109 @@
+['localhost:2222']
+['localhost:2221', 'localhost:2220', 'localhost:2219', 'localhost:2218', 'localhost:2217', 'localhost:2216', 'localhost:2215', 'localhost:2214', 'localhost:2213']
+Extracting ./MNIST_data/train-images-idx3-ubyte.gz
+Extracting ./MNIST_data/train-labels-idx1-ubyte.gz
+Extracting ./MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting ./MNIST_data/t10k-labels-idx1-ubyte.gz
+Launching a worker
+
+Variables initialized ...
+Step: 1249,  Epoch:  1,  Batch: 100 of 550,  Cost: 6.4602,  AvgTime: 12.54ms
+Step: 2141,  Epoch:  1,  Batch: 200 of 550,  Cost: 5.3487,  AvgTime: 11.68ms
+Step: 3035,  Epoch:  1,  Batch: 300 of 550,  Cost: 4.4703,  AvgTime: 12.23ms
+Step: 3979,  Epoch:  1,  Batch: 400 of 550,  Cost: 4.5478,  AvgTime: 12.47ms
+Step: 4894,  Epoch:  1,  Batch: 500 of 550,  Cost: 4.6247,  AvgTime: 13.03ms
+Step: 5319,  Epoch:  1,  Batch: 550 of 550,  Cost: 4.2437,  AvgTime: 6.42ms
+Step: 6279,  Epoch:  2,  Batch: 100 of 550,  Cost: 5.2132,  AvgTime: 12.89ms
+Step: 7204,  Epoch:  2,  Batch: 200 of 550,  Cost: 4.2726,  AvgTime: 12.33ms
+Step: 8094,  Epoch:  2,  Batch: 300 of 550,  Cost: 4.1767,  AvgTime: 11.90ms
+Step: 9031,  Epoch:  2,  Batch: 400 of 550,  Cost: 4.0649,  AvgTime: 12.48ms
+Step: 9879,  Epoch:  2,  Batch: 500 of 550,  Cost: 4.3312,  AvgTime: 12.16ms
+Step: 10279,  Epoch:  2,  Batch: 550 of 550,  Cost: 3.5642,  AvgTime: 5.93ms
+Step: 11220,  Epoch:  3,  Batch: 100 of 550,  Cost: 3.0927,  AvgTime: 12.67ms
+Step: 12100,  Epoch:  3,  Batch: 200 of 550,  Cost: 3.2497,  AvgTime: 11.72ms
+Step: 13011,  Epoch:  3,  Batch: 300 of 550,  Cost: 3.0048,  AvgTime: 12.13ms
+Step: 13911,  Epoch:  3,  Batch: 400 of 550,  Cost: 3.1457,  AvgTime: 11.78ms
+Step: 14807,  Epoch:  3,  Batch: 500 of 550,  Cost: 3.6509,  AvgTime: 12.38ms
+Step: 15200,  Epoch:  3,  Batch: 550 of 550,  Cost: 3.0226,  AvgTime: 6.24ms
+Step: 16162,  Epoch:  4,  Batch: 100 of 550,  Cost: 2.7721,  AvgTime: 12.89ms
+Step: 17050,  Epoch:  4,  Batch: 200 of 550,  Cost: 2.8807,  AvgTime: 11.70ms
+Step: 17974,  Epoch:  4,  Batch: 300 of 550,  Cost: 2.9500,  AvgTime: 12.18ms
+Step: 18856,  Epoch:  4,  Batch: 400 of 550,  Cost: 2.7058,  AvgTime: 11.52ms
+Step: 19699,  Epoch:  4,  Batch: 500 of 550,  Cost: 2.9084,  AvgTime: 11.57ms
+Step: 20079,  Epoch:  4,  Batch: 550 of 550,  Cost: 2.0602,  AvgTime: 6.09ms
+Step: 20996,  Epoch:  5,  Batch: 100 of 550,  Cost: 2.3893,  AvgTime: 12.27ms
+Step: 21883,  Epoch:  5,  Batch: 200 of 550,  Cost: 2.3200,  AvgTime: 11.86ms
+Step: 22796,  Epoch:  5,  Batch: 300 of 550,  Cost: 2.3665,  AvgTime: 12.02ms
+Step: 23692,  Epoch:  5,  Batch: 400 of 550,  Cost: 2.4260,  AvgTime: 11.71ms
+Step: 24558,  Epoch:  5,  Batch: 500 of 550,  Cost: 2.5560,  AvgTime: 11.91ms
+Step: 24747,  Epoch:  5,  Batch: 550 of 550,  Cost: 2.5058,  AvgTime: 4.58ms
+Test-Accuracy: 0.45
+Total Time: 33.50s
+Final Cost: 2.5058
+done
+['localhost:2222']
+['localhost:2221', 'localhost:2220', 'localhost:2219', 'localhost:2218', 'localhost:2217', 'localhost:2216', 'localhost:2215', 'localhost:2214', 'localhost:2213']
+Extracting ./MNIST_data/train-images-idx3-ubyte.gz
+Extracting ./MNIST_data/train-labels-idx1-ubyte.gz
+Extracting ./MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting ./MNIST_data/t10k-labels-idx1-ubyte.gz
+Launching a worker
+
+Variables initialized ...
+Step: 725,  Epoch:  1,  Batch: 100 of 550,  Cost: 7.4349,  AvgTime: 9.21ms
+Step: 1314,  Epoch:  1,  Batch: 200 of 550,  Cost: 5.7741,  AvgTime: 8.31ms
+Step: 1936,  Epoch:  1,  Batch: 300 of 550,  Cost: 5.8106,  AvgTime: 8.72ms
+Step: 2547,  Epoch:  1,  Batch: 400 of 550,  Cost: 5.0466,  AvgTime: 8.53ms
+Step: 3166,  Epoch:  1,  Batch: 500 of 550,  Cost: 5.6861,  AvgTime: 8.48ms
+Step: 3400,  Epoch:  1,  Batch: 550 of 550,  Cost: 4.8432,  AvgTime: 4.25ms
+Step: 4047,  Epoch:  2,  Batch: 100 of 550,  Cost: 4.6387,  AvgTime: 9.22ms
+Step: 4603,  Epoch:  2,  Batch: 200 of 550,  Cost: 5.1552,  AvgTime: 7.78ms
+Step: 5202,  Epoch:  2,  Batch: 300 of 550,  Cost: 4.8078,  AvgTime: 8.43ms
+Step: 5806,  Epoch:  2,  Batch: 400 of 550,  Cost: 4.1849,  AvgTime: 8.40ms
+Step: 6423,  Epoch:  2,  Batch: 500 of 550,  Cost: 4.0426,  AvgTime: 8.48ms
+Step: 6673,  Epoch:  2,  Batch: 550 of 550,  Cost: 4.4736,  AvgTime: 4.31ms
+Step: 7341,  Epoch:  3,  Batch: 100 of 550,  Cost: 4.0961,  AvgTime: 9.30ms
+Step: 7922,  Epoch:  3,  Batch: 200 of 550,  Cost: 4.6649,  AvgTime: 8.18ms
+Step: 8499,  Epoch:  3,  Batch: 300 of 550,  Cost: 3.6892,  AvgTime: 8.21ms
+Step: 9104,  Epoch:  3,  Batch: 400 of 550,  Cost: 3.5922,  AvgTime: 8.56ms
+Step: 9728,  Epoch:  3,  Batch: 500 of 550,  Cost: 4.5073,  AvgTime: 8.77ms
+Step: 9978,  Epoch:  3,  Batch: 550 of 550,  Cost: 3.5502,  AvgTime: 4.33ms
+Step: 10578,  Epoch:  4,  Batch: 100 of 550,  Cost: 3.1562,  AvgTime: 8.49ms
+Step: 11146,  Epoch:  4,  Batch: 200 of 550,  Cost: 3.7799,  AvgTime: 7.79ms
+Step: 11723,  Epoch:  4,  Batch: 300 of 550,  Cost: 3.7101,  AvgTime: 8.15ms
+Step: 12344,  Epoch:  4,  Batch: 400 of 550,  Cost: 3.4581,  AvgTime: 8.53ms
+Step: 12926,  Epoch:  4,  Batch: 500 of 550,  Cost: 2.8945,  AvgTime: 8.17ms
+Step: 13171,  Epoch:  4,  Batch: 550 of 550,  Cost: 2.6781,  AvgTime: 3.83ms
+Step: 13822,  Epoch:  5,  Batch: 100 of 550,  Cost: 3.2249,  AvgTime: 9.74ms
+Step: 14431,  Epoch:  5,  Batch: 200 of 550,  Cost: 3.1689,  AvgTime: 8.55ms
+Step: 15008,  Epoch:  5,  Batch: 300 of 550,  Cost: 3.2059,  AvgTime: 8.27ms
+Step: 15600,  Epoch:  5,  Batch: 400 of 550,  Cost: 3.0544,  AvgTime: 8.34ms
+Step: 16213,  Epoch:  5,  Batch: 500 of 550,  Cost: 3.1599,  AvgTime: 8.42ms
+Step: 16457,  Epoch:  5,  Batch: 550 of 550,  Cost: 3.2209,  AvgTime: 4.04ms
+Test-Accuracy: 0.35
+Total Time: 23.51s
+Final Cost: 3.2209
+done
+['localhost:2222']
+['localhost:2221', 'localhost:2220', 'localhost:2219', 'localhost:2218', 'localhost:2217', 'localhost:2216', 'localhost:2215', 'localhost:2214', 'localhost:2213']
+Extracting ./MNIST_data/train-images-idx3-ubyte.gz
+Extracting ./MNIST_data/train-labels-idx1-ubyte.gz
+Extracting ./MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting ./MNIST_data/t10k-labels-idx1-ubyte.gz
+Launching a worker
+
+Variables initialized ...
+['localhost:2222']
+['localhost:2221', 'localhost:2220', 'localhost:2219', 'localhost:2218', 'localhost:2217', 'localhost:2216', 'localhost:2215', 'localhost:2214', 'localhost:2213']
+Extracting ./MNIST_data/train-images-idx3-ubyte.gz
+Extracting ./MNIST_data/train-labels-idx1-ubyte.gz
+Extracting ./MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting ./MNIST_data/t10k-labels-idx1-ubyte.gz
+['localhost:2222']
+['localhost:2221', 'localhost:2220', 'localhost:2219', 'localhost:2218', 'localhost:2217', 'localhost:2216', 'localhost:2215', 'localhost:2214', 'localhost:2213']
+Extracting ./MNIST_data/train-images-idx3-ubyte.gz
+Extracting ./MNIST_data/train-labels-idx1-ubyte.gz
+Extracting ./MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting ./MNIST_data/t10k-labels-idx1-ubyte.gz
+Launching a worker
+

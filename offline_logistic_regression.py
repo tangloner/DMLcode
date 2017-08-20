@@ -1,3 +1,7 @@
+'''
+create on 1 Aug, 2017 by AndyShen
+modified on 1 Aug, 2017 by Bo
+'''
 #coding=utf-8
 
 import tensorflow as tf
@@ -38,6 +42,7 @@ flags.DEFINE_string('log_dir', None, 'log dir')
 flags.DEFINE_integer('task_index', 0, 'task index')
 flags.DEFINE_integer('data_index_start', 10, 'data index start')
 flags.DEFINE_integer('data_index_end', 0, 'data index end')
+
 def read_batch(sess, train_data, batch_size):
     label_list = []
     ids = []

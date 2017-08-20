@@ -21,7 +21,6 @@ get_worker_conf(){
     worker=${worker:1}
 };
 
-
 get_ps_conf $1
 echo $ps
 get_worker_conf $1 $2
@@ -36,7 +35,7 @@ do
     then
         source /root/anaconda2/envs/tensorflow/bin/activate
         python /root/DMLcode/example.py $ps $worker --job_name=ps --task_index=0 >> /root/DMLcode/result/$1"-"$2/ps0.txt
-        echo "python /root/DMLcode/example.py" $ps $worker "--job_name=ps --task_index=0"
+        echo $ps $worker " done."
     else
 	ssh ssd$i "source activate tensorflow"
         n=`expr 35 - $1`
@@ -44,11 +43,11 @@ do
         then
             index=`expr 35 - $i`
             ssh ssd$i python /root/DMLcode/example.py $ps $worker --job_name=ps --task_index=$index >> /root/DMLcode/result/$1"-"$2/ps"$index".txt
-            echo "python /root/DMLcode/example.py" $ps $worker "--job_name=ps --task_index="$index ">> /root/DMLcode/ps"$index".txt"
+            echo "ps "$index "done!"
         else
             index=`expr 35 - $1 - $i`
             ssh ssd$i python /root/DMLcode/example.py $ps $worker --job_name=worker --task_index=$index >> /root/DMLcode/result/$1"-"$2/worker"$index".txt
-            echo "python /root/DMLcode/example.py" $ps $worker "--job_name=worker --task_index="$index 
+            echo "worker "$index " done!" 
 	fi
     fi
 }&
